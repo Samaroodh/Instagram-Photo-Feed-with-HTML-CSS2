@@ -1,0 +1,40 @@
+body{
+    background: rgb(231, 197, 208);
+    margin: 0;
+}
+h1{
+    font-family: Lucida Handwriting;
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 20px;
+}
+div{
+    box-sizing: border-box;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    color: rgb(240, 223, 234);
+}
+img{
+    width: 100%;
+}
+h2, p{
+    font-family: monospace;
+    padding: 15px;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
